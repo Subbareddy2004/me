@@ -2,32 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.nav-bar{
+  background-color: hsl(217, 33%, 18%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.image-svg-me{
+  background-image: url("https://media.licdn.com/dms/image/D5635AQECfR4eRRJFKQ/profile-framedphoto-shrink_400_400/0/1696574532959?e=1720710000&v=beta&t=MWAEC0Q0mxXXgHa7Y_uCx7doSb_oSJNAa-mMIWD-ljM");
 }
