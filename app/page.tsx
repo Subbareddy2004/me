@@ -47,7 +47,7 @@ export default function Home() {
       <div className='image-svg-me p-12'>
         <Image 
           src="/assets/photo.jpg" 
-          alt="Subbareddy's Photo" 
+          alt="Subbareddy&apos;s Photo" 
           width={300} 
           height={300} 
           className="rounded"
