@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div className="grid grid-cols-2 text-center font-mono font-bold">
       <div className="mt-32 text-5xl bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">
-        <h1>
+      <h1>
           Hi,<br />
-          I'm <span className="bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">Subbareddy</span><br />
+          I&apos;m <span className="bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">Subbareddy</span><br />
           <span className="bg-gradient-to-r from-fuchsia-600 to-pink-600 bg-clip-text text-transparent">Full Stack Developer</span>
         </h1>
         <div className="flex justify-center mt-9">
